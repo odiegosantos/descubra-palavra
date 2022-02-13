@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Lista</title>
+</head>
+
+<body>
+  <header>
+    <h1>Jogo Descubra Palavra</h1>
+    <nav class="navigation">
+      <a href="cadastro.html" class="btn btn-primary">Cadastrar Palavras</a>
+      <a href="jogo.html" class="btn btn-danger">Iniciar Jogo</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="listaPalavras">
+      <h2>Lista de Palavras</h2>
+      <input type="checkbox" id="ckMostrar"> Mostrar
+      <table class="table" id="tbPalavras">
+        <tr>
+          <th>Palavra</th>
+          <th>Dica</th>
+          <th>
+            <label>Todas <input type="checkbox" id="ckTodos"></label>
+          </th>
+        </tr>
+      </table>
+      <p>
+        <input type="button" class="btn btn-danger oculta" value="Excluir" id="btExcluir">
+      </p>
+    </div>
+  </main>
+  <script src="js/lista.js"></script>
+</body>
+
+</html>

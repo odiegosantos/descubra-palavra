@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Jogo</title>
+</head>
+
+<body>
+  <header>
+    <h1>Jogo Descubra Palavra</h1>
+    <nav class="navigation">
+      <a href="cadastro.html" class="btn btn-primary">
+        Cadastrar Palavras
+      </a>
+      <a href="lista.html" class="btn btn-success">
+        Listar Palavras
+      </a>
+      <a href="Jogo.html" class="btn btn-danger">
+        Jogar Novamente
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <div>
+        <h2>
+          <label for="inLetra">Informe uma Letra:</label>
+        </h2>
+      </div>
+      <div>
+        <input type="text" class="form-control" id="inLetra" autofocus>
+        <input type="button" class="btn btn-primary" value="Jogar" id="btJogar">
+      </div>
+    </div>
+
+    <div class="img">
+      <div>
+        <p>Palavra:
+          <span id="outPalavra"></span>
+        </p>
+        <p>N° Chances:
+          <span id="outChances">4</span>
+        </p>
+        <p>Erros:
+          <span id="outErros"></span>
+        </p>
+        <p id="outMensagemFinal"></p>
+      </div>
+      <div>
+        <h3> Situação do Jogador </h3>
+        <img src="img/status1.png" alt="Situação do Jogador" class="lose" width="400px" id="imgStatus">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 corFundo margemDica">
+        <input type="button" value="Ver Dica" class="btn btn-primary" id="btVerDica">
+        <span id="outDica">* Custo: 1 chance</span>
+      </div>
+    </div>
+  </main>
+  <script src="js/Jogo.js"></script>
+</body>
+
+</html>

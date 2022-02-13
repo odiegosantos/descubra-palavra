@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #53bee1;
+}
+h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+.navigation {
+  height: 5rem;
+}
+.btn {
+  margin: .5rem;
+  padding: .2rem .5rem;
+  border-radius: .5rem;
+  border: .1rem solid #000;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background: #0d994a;
+}
+.btn-success {
+  background: #643df2;
+}
+.btn-danger {
+  background: #f25252;
+}
+.table {
+  width: 300px;
+  min-height: 300px;
+}
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control {
+  height: 3rem;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: .5rem;
+}
+.oculta {
+  display: none;
+}
+.img {
+  padding: .5rem;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.you-lose {
+  font-size: .2rem;
+  color: #f00;
+}
+.you-win {
+  font-size: .2rem;
+  color: #00f;
+}
