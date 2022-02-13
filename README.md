@@ -45,7 +45,7 @@
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1;\
-:x: Feature 2;\
+:x: Feature 2;
 
 ## :rocket: Technologies ##
 
